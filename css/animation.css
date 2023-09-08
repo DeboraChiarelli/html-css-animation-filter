@@ -9,7 +9,7 @@
 }
 /* Ex-2 */
 .ex-2-square:active {
-    width: 100%
+    width: 100%;
 }
 
 .ex-2-square {
@@ -33,3 +33,63 @@
 .ex-4-square {
     transition: 2s;
 }
+
+/* Ex-5 */
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+.ex-5-square {
+    transition: 2s;
+}
+
+/* Ex-6 */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+/* Ex-7 */
+.ex-7-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-7-img {
+    transition: 2s;
+}
+
+/* Ex-8 */
+.ex-8-img:hover {
+    filter:sepia(100%);
+    border-radius: 5%;
+}
+
+.ex-8-img {
+    transition: 2s;
+}
+
+/* Ex-9 */
+.ex-9-img:hover {
+    filter:sepia(100%);
+    border-radius: 2%;
+    transform: scale(1%);
+}
+
+.ex-9-img {
+    transition: 2s;
+}
+
+/* Ex-10 */
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
